@@ -1,0 +1,830 @@
+ 2024-03-31 23:30:32,810 - DEBUG - --Начало программы
+ 2024-03-31 23:30:32,816 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:30:33,241 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-03-31 23:30:33,245 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-03-31 23:38:29,267 - DEBUG - --Начало программы
+ 2024-03-31 23:38:29,272 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:38:29,742 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-03-31 23:38:29,747 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-03-31 23:38:29,756 - DEBUG - --[1] итерация
+ 2024-03-31 23:38:29,764 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:38:29,907 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.lZHp3FA4vA7ZQxQRjjmW7Eyti8NVKp5Jhl9_DG6k5D78HC9oi0uXIHFplEemtRLRtmxOYA2MaZ0NypExJGn3gYqSQAyoNnk3dYtafgfx5-vpZ65dvvOfb4z8kySpntW1gQ33bnPkpBpRcmaMQS3cUK6fgewzPYqEECT0VHgBCHGHzzI0AhHdxdewj4XtsQCi&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-03-31 23:38:29,919 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-03-31 23:38:29,959 - DEBUG - --[2] итерация
+ 2024-03-31 23:38:29,963 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:38:30,063 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.lZHp3FA4vA7ZQxQRjjmW7Eyti8NVKp5Jhl9_DG6k5D78HC9oi0uXIHFplEemtRLRtmxOYA2MaZ0NypExJGn3gYqSQAyoNnk3dYtafgfx5-vpZ65dvvOfb4z8kySpntW1gQ33bnPkpBpRcmaMQS3cUK6fgewzPYqEECT0VHgBCHGHzzI0AhHdxdewj4XtsQCi&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-03-31 23:38:30,065 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-03-31 23:38:30,069 - DEBUG - --[3] итерация
+ 2024-03-31 23:38:30,073 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:38:30,173 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.lZHp3FA4vA7ZQxQRjjmW7Eyti8NVKp5Jhl9_DG6k5D78HC9oi0uXIHFplEemtRLRtmxOYA2MaZ0NypExJGn3gYqSQAyoNnk3dYtafgfx5-vpZ65dvvOfb4z8kySpntW1gQ33bnPkpBpRcmaMQS3cUK6fgewzPYqEECT0VHgBCHGHzzI0AhHdxdewj4XtsQCi&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-03-31 23:38:30,176 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-03-31 23:38:30,179 - DEBUG - --[4] итерация
+ 2024-03-31 23:38:30,184 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:38:30,285 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.lZHp3FA4vA7ZQxQRjjmW7Eyti8NVKp5Jhl9_DG6k5D78HC9oi0uXIHFplEemtRLRtmxOYA2MaZ0NypExJGn3gYqSQAyoNnk3dYtafgfx5-vpZ65dvvOfb4z8kySpntW1gQ33bnPkpBpRcmaMQS3cUK6fgewzPYqEECT0VHgBCHGHzzI0AhHdxdewj4XtsQCi&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-03-31 23:38:30,288 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-03-31 23:38:30,291 - DEBUG - --[5] итерация
+ 2024-03-31 23:38:30,296 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:38:30,384 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.lZHp3FA4vA7ZQxQRjjmW7Eyti8NVKp5Jhl9_DG6k5D78HC9oi0uXIHFplEemtRLRtmxOYA2MaZ0NypExJGn3gYqSQAyoNnk3dYtafgfx5-vpZ65dvvOfb4z8kySpntW1gQ33bnPkpBpRcmaMQS3cUK6fgewzPYqEECT0VHgBCHGHzzI0AhHdxdewj4XtsQCi&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-03-31 23:38:30,387 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-03-31 23:38:30,388 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-03-31 23:38:30,388 - DEBUG - --Конец!
+ 2024-03-31 23:46:12,086 - DEBUG - --Начало программы
+ 2024-03-31 23:46:12,091 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:46:12,719 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-03-31 23:46:12,723 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-03-31 23:46:12,768 - DEBUG - --[1] итерация
+ 2024-03-31 23:46:12,776 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:46:12,970 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:46:12,977 - DEBUG - --Получен url фото 1
+ 2024-03-31 23:46:16,977 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-03-31 23:46:16,983 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:46:17,380 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-03-31 23:46:17,391 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-03-31 23:46:17,517 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-03-31 23:46:17,647 - DEBUG - Starting new HTTPS connection (1): uploader12g.disk.yandex.net:443
+ 2024-03-31 23:46:18,640 - DEBUG - https://uploader12g.disk.yandex.net:443 "PUT /upload-target/20240331T234617.355.utd.erl3wif60gvtff2vncpxc5z51-k12g.5743112 HTTP/1.1" 201 None
+ 2024-03-31 23:46:18,644 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-03-31 23:46:18,677 - DEBUG - --[2] итерация
+ 2024-03-31 23:46:18,682 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:46:18,834 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:46:18,842 - DEBUG - --Получен url фото 2
+ 2024-03-31 23:46:22,843 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-03-31 23:46:22,849 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:46:23,367 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-03-31 23:46:23,379 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-03-31 23:46:23,568 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-03-31 23:46:23,684 - DEBUG - Starting new HTTPS connection (1): uploader2o.disk.yandex.net:443
+ 2024-03-31 23:46:24,687 - DEBUG - https://uploader2o.disk.yandex.net:443 "PUT /upload-target/20240331T234623.335.utd.bxv281lho33p0e90kwk6jev9s-k2o.5788707 HTTP/1.1" 201 None
+ 2024-03-31 23:46:24,692 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-03-31 23:46:24,701 - DEBUG - --[3] итерация
+ 2024-03-31 23:46:24,708 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:46:24,868 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:46:24,876 - DEBUG - --Получен url фото 3
+ 2024-03-31 23:46:28,877 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-03-31 23:46:28,883 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:46:29,406 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-03-31 23:51:52,859 - DEBUG - --Начало программы
+ 2024-03-31 23:51:52,863 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:51:53,426 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-03-31 23:51:53,431 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-03-31 23:51:53,432 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-03-31 23:51:53,433 - DEBUG - --Конец!
+ 2024-03-31 23:53:25,632 - DEBUG - --Начало программы
+ 2024-03-31 23:53:25,636 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:53:26,215 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-03-31 23:53:26,220 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-03-31 23:53:26,228 - DEBUG - --[1] итерация
+ 2024-03-31 23:53:26,235 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:53:26,402 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:53:26,410 - DEBUG - --Получен url фото 1
+ 2024-03-31 23:53:30,411 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-03-31 23:53:30,417 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:53:30,854 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-03-31 23:53:30,866 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-03-31 23:53:30,961 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-03-31 23:53:31,095 - DEBUG - Starting new HTTPS connection (1): uploader18g.disk.yandex.net:443
+ 2024-03-31 23:53:33,759 - DEBUG - https://uploader18g.disk.yandex.net:443 "PUT /upload-target/20240331T235330.827.utd.wto6mmqv0epislu2d47voity-k18g.5720966 HTTP/1.1" 201 None
+ 2024-03-31 23:53:33,764 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-03-31 23:53:33,774 - DEBUG - --[2] итерация
+ 2024-03-31 23:53:33,781 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:53:33,943 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:53:33,950 - DEBUG - --Получен url фото 2
+ 2024-03-31 23:53:37,951 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-03-31 23:53:37,957 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:53:40,002 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-03-31 23:53:40,013 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-03-31 23:53:40,229 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-03-31 23:53:40,343 - DEBUG - Starting new HTTPS connection (1): uploader73j.disk.yandex.net:443
+ 2024-03-31 23:53:41,077 - DEBUG - https://uploader73j.disk.yandex.net:443 "PUT /upload-target/20240331T235339.981.utd.edlsku1oxwvmk4xpo6d357q69-k73j.5518460 HTTP/1.1" 201 None
+ 2024-03-31 23:53:41,082 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-03-31 23:53:41,091 - DEBUG - --[3] итерация
+ 2024-03-31 23:53:41,098 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:53:41,277 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:53:41,285 - DEBUG - --Получен url фото 3
+ 2024-03-31 23:53:45,286 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-03-31 23:53:45,292 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:53:45,636 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-03-31 23:55:23,161 - DEBUG - --Начало программы
+ 2024-03-31 23:55:23,166 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:55:23,545 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-03-31 23:55:23,550 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-03-31 23:55:23,557 - DEBUG - --[1] итерация
+ 2024-03-31 23:55:23,565 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:55:23,728 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:55:23,732 - DEBUG - --Получен url фото 1
+ 2024-03-31 23:55:27,733 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-03-31 23:55:29,740 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:55:30,365 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-03-31 23:55:30,376 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-03-31 23:55:30,485 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-03-31 23:55:30,613 - DEBUG - Starting new HTTPS connection (1): uploader39o.disk.yandex.net:443
+ 2024-03-31 23:55:31,597 - DEBUG - https://uploader39o.disk.yandex.net:443 "PUT /upload-target/20240331T235530.322.utd.273f3zr8ayh5zdr17f1yc40fr-k39o.6164188 HTTP/1.1" 201 None
+ 2024-03-31 23:55:31,601 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-03-31 23:55:31,611 - DEBUG - --[2] итерация
+ 2024-03-31 23:55:31,619 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:55:31,768 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:55:31,776 - DEBUG - --Получен url фото 2
+ 2024-03-31 23:55:35,777 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-03-31 23:55:37,784 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:55:38,307 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-03-31 23:55:38,319 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-03-31 23:55:38,453 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-03-31 23:55:38,550 - DEBUG - Starting new HTTPS connection (1): uploader20j.disk.yandex.net:443
+ 2024-03-31 23:55:39,570 - DEBUG - https://uploader20j.disk.yandex.net:443 "PUT /upload-target/20240331T235538.270.utd.3tx0k92prn7ifpxcn63b13m0o-k20j.5724983 HTTP/1.1" 201 None
+ 2024-03-31 23:55:39,575 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-03-31 23:55:39,620 - DEBUG - --[3] итерация
+ 2024-03-31 23:55:39,628 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-03-31 23:55:39,780 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-03-31 23:55:39,789 - DEBUG - --Получен url фото 3
+ 2024-03-31 23:55:43,789 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-03-31 23:55:45,795 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-03-31 23:55:46,078 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:05:10,851 - DEBUG - --Начало программы
+ 2024-04-01 00:05:10,856 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:05:11,417 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-01 00:05:11,421 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-01 00:05:11,422 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 00:05:11,423 - DEBUG - --Конец!
+ 2024-04-01 00:05:33,516 - DEBUG - --Начало программы
+ 2024-04-01 00:05:33,520 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:05:33,883 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:05:33,888 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:05:33,924 - DEBUG - --[1] итерация
+ 2024-04-01 00:05:33,928 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:05:38,115 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:05:38,123 - DEBUG - --Получен url фото 1
+ 2024-04-01 00:05:42,124 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 00:05:44,130 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:05:44,641 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:05:44,652 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 00:05:44,778 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 00:05:44,914 - DEBUG - Starting new HTTPS connection (1): uploader11o.disk.yandex.net:443
+ 2024-04-01 00:05:45,651 - DEBUG - https://uploader11o.disk.yandex.net:443 "PUT /upload-target/20240401T000544.628.utd.9vzs380w6bc0j27arpmrhmgtf-k11o.5802901 HTTP/1.1" 201 None
+ 2024-04-01 00:05:45,661 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:05:46,356 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:08:52,930 - DEBUG - --Начало программы
+ 2024-04-01 00:08:52,935 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:08:53,898 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:08:53,901 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:08:53,906 - DEBUG - --[1] итерация
+ 2024-04-01 00:08:53,911 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:08:54,054 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:08:54,060 - DEBUG - --Получен url фото 1
+ 2024-04-01 00:08:58,061 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 00:09:00,068 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:09:00,449 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:09:00,460 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 00:09:00,541 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 00:09:00,687 - DEBUG - Starting new HTTPS connection (1): uploader33o.disk.yandex.net:443
+ 2024-04-01 00:09:01,284 - DEBUG - https://uploader33o.disk.yandex.net:443 "PUT /upload-target/20240401T000900.435.utd.40eev1nno2mnmoyj93cbsfzqd-k33o.5703677 HTTP/1.1" 201 None
+ 2024-04-01 00:09:01,294 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:09:01,581 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:13:21,834 - DEBUG - --Начало программы
+ 2024-04-01 00:13:21,839 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:13:22,256 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-01 00:13:22,260 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-01 00:13:22,262 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 00:13:22,262 - DEBUG - --Конец!
+ 2024-04-01 00:13:56,127 - DEBUG - --Начало программы
+ 2024-04-01 00:13:56,132 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:13:56,492 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:13:56,496 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:13:56,526 - DEBUG - --[1] итерация
+ 2024-04-01 00:13:56,534 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:13:56,739 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:13:56,748 - DEBUG - --Получен url фото 1
+ 2024-04-01 00:14:00,748 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 00:14:02,755 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:14:03,518 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:14:03,531 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 00:14:03,643 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 00:14:03,786 - DEBUG - Starting new HTTPS connection (1): uploader36o.disk.yandex.net:443
+ 2024-04-01 00:14:04,477 - DEBUG - https://uploader36o.disk.yandex.net:443 "PUT /upload-target/20240401T001403.194.utd.8hmgs1d9ndkp553gpohbbjvis-k36o.6180765 HTTP/1.1" 201 None
+ 2024-04-01 00:14:04,482 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 00:14:04,533 - DEBUG - --[2] итерация
+ 2024-04-01 00:14:04,537 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:14:04,677 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:14:04,682 - DEBUG - --Получен url фото 2
+ 2024-04-01 00:14:08,683 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:14:10,691 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:14:11,152 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:14:11,163 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 00:14:11,307 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 00:14:11,414 - DEBUG - Starting new HTTPS connection (1): uploader82j.disk.yandex.net:443
+ 2024-04-01 00:14:12,093 - DEBUG - https://uploader82j.disk.yandex.net:443 "PUT /upload-target/20240401T001411.144.utd.11awq1hbqh6255zjskz0eum8x-k82j.5511218 HTTP/1.1" 201 None
+ 2024-04-01 00:14:12,098 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 00:14:12,144 - DEBUG - --[3] итерация
+ 2024-04-01 00:14:12,152 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:14:12,310 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:14:12,319 - DEBUG - --Получен url фото 3
+ 2024-04-01 00:14:16,320 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:14:18,326 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:14:18,706 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:14:18,749 - DEBUG - --Ошибка Ya!
+ 2024-04-01 00:14:18,758 - DEBUG - --[4] итерация
+ 2024-04-01 00:14:18,765 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:14:18,931 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:14:18,939 - DEBUG - --Получен url фото 4
+ 2024-04-01 00:14:22,940 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:14:24,946 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:14:25,442 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:14:25,461 - DEBUG - --Ошибка Ya!
+ 2024-04-01 00:14:25,466 - DEBUG - --[5] итерация
+ 2024-04-01 00:14:25,471 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:14:25,609 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:14:25,613 - DEBUG - --Получен url фото 5
+ 2024-04-01 00:14:29,614 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:14:31,622 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:14:32,003 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:14:32,009 - DEBUG - --Ошибка Ya!
+ 2024-04-01 00:14:32,013 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 00:14:32,013 - DEBUG - --Конец!
+ 2024-04-01 00:17:22,920 - DEBUG - --Начало программы
+ 2024-04-01 00:17:22,924 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:17:23,280 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:17:23,284 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:17:23,308 - DEBUG - --[1] итерация
+ 2024-04-01 00:17:23,315 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:21:35,289 - DEBUG - --Начало программы
+ 2024-04-01 00:21:35,293 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:21:36,099 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:21:36,104 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:21:36,112 - DEBUG - --[1] итерация
+ 2024-04-01 00:21:36,119 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:24:14,025 - DEBUG - --Начало программы
+ 2024-04-01 00:24:14,029 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:24:14,364 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-01 00:24:14,367 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-01 00:24:14,368 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 00:24:14,368 - DEBUG - --Конец!
+ 2024-04-01 00:25:08,690 - DEBUG - --Начало программы
+ 2024-04-01 00:25:08,695 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:25:08,987 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:25:08,989 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:25:09,002 - DEBUG - --[1] итерация
+ 2024-04-01 00:25:09,006 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:25:09,168 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:25:09,172 - DEBUG - --Получен url фото 1
+ 2024-04-01 00:25:13,173 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 00:25:15,179 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:25:15,545 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:25:15,556 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 00:25:15,689 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 00:25:15,828 - DEBUG - Starting new HTTPS connection (1): uploader25j.disk.yandex.net:443
+ 2024-04-01 00:25:16,745 - DEBUG - https://uploader25j.disk.yandex.net:443 "PUT /upload-target/20240401T002515.544.utd.2yjef639m4ttzr6xxxkanefwk-k25j.5680342 HTTP/1.1" 201 None
+ 2024-04-01 00:25:16,750 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 00:25:16,769 - DEBUG - --[2] итерация
+ 2024-04-01 00:25:16,773 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:25:16,912 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:25:16,920 - DEBUG - --Получен url фото 2
+ 2024-04-01 00:25:20,921 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:25:22,927 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:25:23,564 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:25:23,575 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 00:25:23,727 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 00:25:23,821 - DEBUG - Starting new HTTPS connection (1): uploader8o.disk.yandex.net:443
+ 2024-04-01 00:25:24,690 - DEBUG - https://uploader8o.disk.yandex.net:443 "PUT /upload-target/20240401T002523.548.utd.7qqy8mr0t2omy96q429e0rqbt-k8o.5740961 HTTP/1.1" 201 None
+ 2024-04-01 00:25:24,695 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 00:25:24,716 - DEBUG - --[3] итерация
+ 2024-04-01 00:25:24,724 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:25:24,876 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:25:24,883 - DEBUG - --Получен url фото 3
+ 2024-04-01 00:25:28,888 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:25:30,894 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:25:31,355 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:27:41,348 - DEBUG - --Начало программы
+ 2024-04-01 00:27:41,353 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:27:41,950 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 00:27:41,954 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 00:27:41,962 - DEBUG - --[1] итерация
+ 2024-04-01 00:27:41,970 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:27:42,140 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:27:42,148 - DEBUG - --Получен url фото 1
+ 2024-04-01 00:27:46,149 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 00:27:48,156 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:27:48,635 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:27:48,646 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 00:27:48,747 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 00:27:48,886 - DEBUG - Starting new HTTPS connection (1): uploader13g.disk.yandex.net:443
+ 2024-04-01 00:27:49,854 - DEBUG - https://uploader13g.disk.yandex.net:443 "PUT /upload-target/20240401T002748.618.utd.8vzzaaxyizyh6w1j6tghdo6v7-k13g.5842573 HTTP/1.1" 201 None
+ 2024-04-01 00:27:49,859 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 00:27:49,872 - DEBUG - --[2] итерация
+ 2024-04-01 00:27:49,880 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:27:50,050 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:27:50,055 - DEBUG - --Получен url фото 2
+ 2024-04-01 00:27:54,056 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:27:56,062 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:27:56,425 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 00:27:56,437 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 00:27:56,570 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 00:27:56,678 - DEBUG - Starting new HTTPS connection (1): uploader6o.disk.yandex.net:443
+ 2024-04-01 00:27:57,655 - DEBUG - https://uploader6o.disk.yandex.net:443 "PUT /upload-target/20240401T002756.428.utd.4nmi59tgjfq5s35jadikrzj2-k6o.5686048 HTTP/1.1" 201 None
+ 2024-04-01 00:27:57,659 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 00:27:57,683 - DEBUG - --[3] итерация
+ 2024-04-01 00:27:57,691 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:27:57,856 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:27:57,864 - DEBUG - --Получен url фото 3
+ 2024-04-01 00:28:01,865 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:28:03,871 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:28:04,200 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:28:04,213 - DEBUG - --Ошибка Ya!
+ 2024-04-01 00:28:04,221 - DEBUG - --[4] итерация
+ 2024-04-01 00:28:04,229 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:28:04,387 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:28:04,395 - DEBUG - --Получен url фото 4
+ 2024-04-01 00:28:08,395 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:28:10,402 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:28:10,846 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:28:10,858 - DEBUG - --Ошибка Ya!
+ 2024-04-01 00:28:10,866 - DEBUG - --[5] итерация
+ 2024-04-01 00:28:10,874 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 00:28:11,008 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9283
+ 2024-04-01 00:28:11,016 - DEBUG - --Получен url фото 5
+ 2024-04-01 00:28:15,017 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 00:28:17,025 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 00:28:17,438 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 00:28:17,478 - DEBUG - --Ошибка Ya!
+ 2024-04-01 00:28:17,482 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 00:28:17,483 - DEBUG - --Конец!
+ 2024-04-01 19:22:22,840 - DEBUG - --Начало программы
+ 2024-04-01 19:22:22,846 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:22:23,529 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:22:23,532 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:22:23,567 - DEBUG - --[1] итерация
+ 2024-04-01 19:22:23,571 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:22:23,815 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:22:23,822 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:22:27,823 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:22:29,830 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:22:30,781 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:22:30,792 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:22:30,922 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:22:31,098 - DEBUG - Starting new HTTPS connection (1): uploader21g.disk.yandex.net:443
+ 2024-04-01 19:22:33,355 - DEBUG - https://uploader21g.disk.yandex.net:443 "PUT /upload-target/20240401T192230.512.utd.codqlxn8thwrtebjqr5qtr2fi-k21g.6194027 HTTP/1.1" 201 None
+ 2024-04-01 19:22:33,360 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:22:33,382 - DEBUG - --[2] итерация
+ 2024-04-01 19:22:33,390 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:22:33,624 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:22:33,636 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:22:37,637 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:22:39,641 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:22:40,324 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:22:40,330 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:22:40,439 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:22:40,576 - DEBUG - Starting new HTTPS connection (1): uploader52j.disk.yandex.net:443
+ 2024-04-01 19:22:41,694 - DEBUG - https://uploader52j.disk.yandex.net:443 "PUT /upload-target/20240401T192240.257.utd.dsf0y9ecwzqcz65enxe9uytde-k52j.6316061 HTTP/1.1" 201 None
+ 2024-04-01 19:22:41,696 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:22:41,701 - DEBUG - --[3] итерация
+ 2024-04-01 19:22:41,705 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:22:41,854 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:22:41,862 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:22:45,862 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:22:47,868 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:22:48,399 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:22:48,413 - DEBUG - --Ошибка Ya!
+ 2024-04-01 19:22:48,421 - DEBUG - --[4] итерация
+ 2024-04-01 19:22:48,428 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:22:48,626 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:22:48,633 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:22:52,634 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:22:54,638 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:22:55,029 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:22:55,038 - DEBUG - --Ошибка Ya!
+ 2024-04-01 19:22:55,044 - DEBUG - --[5] итерация
+ 2024-04-01 19:22:55,050 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:22:55,218 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:22:55,225 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:22:59,226 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:23:01,232 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:23:01,691 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:23:01,699 - DEBUG - --Ошибка Ya!
+ 2024-04-01 19:23:01,702 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 19:23:01,702 - DEBUG - --Конец!
+ 2024-04-01 19:31:16,877 - DEBUG - --Начало программы
+ 2024-04-01 19:31:16,882 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:31:17,485 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:31:17,490 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:31:17,497 - DEBUG - --[1] итерация
+ 2024-04-01 19:31:17,503 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:31:17,693 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:31:17,698 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:31:21,699 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:31:26,705 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:31:27,199 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:31:27,209 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:31:27,316 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:31:27,449 - DEBUG - Starting new HTTPS connection (1): uploader31o.disk.yandex.net:443
+ 2024-04-01 19:31:30,476 - DEBUG - https://uploader31o.disk.yandex.net:443 "PUT /upload-target/20240401T193127.145.utd.8ed3vp1dq614ojhl7wo5lz4b9-k31o.6034427 HTTP/1.1" 201 None
+ 2024-04-01 19:31:30,481 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:31:30,508 - DEBUG - --[2] итерация
+ 2024-04-01 19:31:30,516 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:31:30,664 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:31:30,672 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:31:34,673 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:31:39,679 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:31:40,412 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:31:40,422 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:31:40,572 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:31:40,696 - DEBUG - Starting new HTTPS connection (1): uploader12o.disk.yandex.net:443
+ 2024-04-01 19:31:41,368 - DEBUG - https://uploader12o.disk.yandex.net:443 "PUT /upload-target/20240401T193140.336.utd.3cfysjfrnuskz9vv3gsruej9m-k12o.6002773 HTTP/1.1" 201 None
+ 2024-04-01 19:31:41,372 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:31:41,419 - DEBUG - --[3] итерация
+ 2024-04-01 19:31:41,432 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:31:41,620 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:31:41,628 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:31:45,629 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:31:50,634 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:31:51,192 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:31:51,196 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:33:27,627 - DEBUG - --Начало программы
+ 2024-04-01 19:33:27,631 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:33:28,198 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:33:28,203 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:33:28,257 - DEBUG - --[1] итерация
+ 2024-04-01 19:33:28,265 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:33:28,451 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:33:28,459 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:33:32,460 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:33:37,466 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:33:38,027 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:33:38,037 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:33:38,141 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:33:38,283 - DEBUG - Starting new HTTPS connection (1): uploader28g.disk.yandex.net:443
+ 2024-04-01 19:33:39,372 - DEBUG - https://uploader28g.disk.yandex.net:443 "PUT /upload-target/20240401T193337.949.utd.7ghny9knzd32nujgvs5nbyujt-k28g.6171376 HTTP/1.1" 201 None
+ 2024-04-01 19:33:39,377 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:33:39,388 - DEBUG - --[2] итерация
+ 2024-04-01 19:33:39,394 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:33:39,569 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:33:39,577 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:33:43,578 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:33:48,583 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:33:49,208 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:33:49,218 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:33:49,341 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:33:49,453 - DEBUG - Starting new HTTPS connection (1): uploader18j.disk.yandex.net:443
+ 2024-04-01 19:33:50,784 - DEBUG - https://uploader18j.disk.yandex.net:443 "PUT /upload-target/20240401T193349.121.utd.398e8tge86fbjehbi6h6s96dc-k18j.6082225 HTTP/1.1" 201 None
+ 2024-04-01 19:33:50,788 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:33:50,798 - DEBUG - --[3] итерация
+ 2024-04-01 19:33:50,805 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:33:50,997 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:33:51,005 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:33:55,006 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:34:00,011 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:34:00,752 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:34:00,757 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:34:00,806 - DEBUG - --[4] итерация
+ 2024-04-01 19:34:00,812 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:34:00,992 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:34:01,000 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:34:05,001 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:34:10,006 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:34:10,876 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:34:10,881 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:34:10,912 - DEBUG - --[5] итерация
+ 2024-04-01 19:34:10,919 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:34:11,110 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:34:11,117 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:34:15,118 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:34:20,124 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:34:20,872 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:34:20,876 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:34:20,878 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-01 19:34:20,878 - DEBUG - --Конец!
+ 2024-04-01 19:35:09,986 - DEBUG - --Начало программы
+ 2024-04-01 19:35:09,991 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:35:11,113 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:35:11,117 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:35:11,126 - DEBUG - --[1] итерация
+ 2024-04-01 19:35:11,133 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:35:11,326 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:35:11,331 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:35:15,332 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:35:20,338 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:35:20,886 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:35:20,896 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:35:21,015 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:35:21,145 - DEBUG - Starting new HTTPS connection (1): uploader69j.disk.yandex.net:443
+ 2024-04-01 19:35:22,033 - DEBUG - https://uploader69j.disk.yandex.net:443 "PUT /upload-target/20240401T193520.819.utd.9oh0c3a4jmgpb22qlmrxn6gha-k69j.6342301 HTTP/1.1" 201 None
+ 2024-04-01 19:35:22,036 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:35:22,042 - DEBUG - --[2] итерация
+ 2024-04-01 19:35:22,047 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:35:22,184 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:35:22,191 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:35:26,192 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:35:31,198 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:35:32,388 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:35:32,398 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:35:32,529 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:35:32,644 - DEBUG - Starting new HTTPS connection (1): uploader32o.disk.yandex.net:443
+ 2024-04-01 19:35:34,746 - DEBUG - https://uploader32o.disk.yandex.net:443 "PUT /upload-target/20240401T193531.816.utd.etn4iirzvff8c6in18w828gbc-k32o.6061086 HTTP/1.1" 201 None
+ 2024-04-01 19:35:34,751 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:35:34,766 - DEBUG - --[3] итерация
+ 2024-04-01 19:35:34,773 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:35:34,931 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:35:34,938 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:35:38,939 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:35:43,945 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:35:44,615 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:35:44,624 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:35:44,629 - DEBUG - --[4] итерация
+ 2024-04-01 19:35:44,635 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:35:44,833 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:35:44,841 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:35:48,841 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:35:53,847 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:35:54,465 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:35:54,474 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:35:54,479 - DEBUG - --[5] итерация
+ 2024-04-01 19:35:54,486 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:35:54,670 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:35:54,678 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:35:58,679 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:36:03,685 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:36:04,377 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:36:04,386 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:36:04,388 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-01 19:36:04,388 - DEBUG - --Конец!
+ 2024-04-01 19:44:48,822 - DEBUG - --Начало программы
+ 2024-04-01 19:44:48,827 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:44:49,217 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-01 19:44:49,221 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-01 19:44:49,222 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-01 19:44:49,222 - DEBUG - --Конец!
+ 2024-04-01 19:45:08,599 - DEBUG - --Начало программы
+ 2024-04-01 19:45:08,606 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:45:09,260 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:45:09,264 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:45:09,289 - DEBUG - --[1] итерация
+ 2024-04-01 19:45:09,295 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:45:09,484 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:45:09,491 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:45:13,509 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:45:18,515 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:45:19,019 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:45:19,029 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:45:19,133 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:45:19,275 - DEBUG - Starting new HTTPS connection (1): uploader41j.disk.yandex.net:443
+ 2024-04-01 19:45:20,441 - DEBUG - https://uploader41j.disk.yandex.net:443 "PUT /upload-target/20240401T194518.951.utd.35d68w0sgclexp37vg740278j-k41j.6338000 HTTP/1.1" 201 None
+ 2024-04-01 19:45:20,445 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:45:20,465 - DEBUG - --[2] итерация
+ 2024-04-01 19:45:20,471 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:45:20,633 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:45:20,641 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:45:24,682 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:45:29,688 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:45:30,253 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:45:30,264 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:45:30,410 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:45:30,513 - DEBUG - Starting new HTTPS connection (1): uploader5g.disk.yandex.net:443
+ 2024-04-01 19:45:31,103 - DEBUG - https://uploader5g.disk.yandex.net:443 "PUT /upload-target/20240401T194530.198.utd.a135puk8v9bftgorbvsbl5dkd-k5g.6146724 HTTP/1.1" 201 None
+ 2024-04-01 19:45:31,108 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:45:31,125 - DEBUG - --[3] итерация
+ 2024-04-01 19:45:31,131 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:45:31,290 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:45:31,297 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:45:35,342 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:45:40,353 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:45:40,789 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:45:40,851 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:45:40,859 - DEBUG - --[4] итерация
+ 2024-04-01 19:45:40,872 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:45:41,040 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:45:41,047 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:45:45,094 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:45:50,100 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:45:50,623 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:45:50,635 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:45:50,643 - DEBUG - --[5] итерация
+ 2024-04-01 19:45:50,649 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:45:50,841 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:45:50,849 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:45:54,865 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:45:59,871 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:46:00,469 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:46:00,481 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:46:00,482 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-01 19:46:00,482 - DEBUG - --Конец!
+ 2024-04-01 19:47:15,530 - DEBUG - --Начало программы
+ 2024-04-01 19:47:15,534 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:47:16,588 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:47:16,593 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:47:16,609 - DEBUG - --[1] итерация
+ 2024-04-01 19:47:16,616 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:47:16,828 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:47:16,837 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:47:20,865 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:47:25,870 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:47:26,273 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:47:26,284 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:47:26,396 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:47:26,533 - DEBUG - Starting new HTTPS connection (1): uploader7o.disk.yandex.net:443
+ 2024-04-01 19:47:30,400 - DEBUG - https://uploader7o.disk.yandex.net:443 "PUT /upload-target/20240401T194726.235.utd.bvuqvgpkosk2ow8wqnae6l41y-k7o.6166619 HTTP/1.1" 201 None
+ 2024-04-01 19:47:30,405 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:47:30,423 - DEBUG - --[2] итерация
+ 2024-04-01 19:47:30,430 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:47:30,635 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:47:30,642 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:47:34,668 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:47:39,674 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:47:40,346 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:47:40,356 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:47:40,515 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:47:40,610 - DEBUG - Starting new HTTPS connection (1): uploader43o.disk.yandex.net:443
+ 2024-04-01 19:47:41,734 - DEBUG - https://uploader43o.disk.yandex.net:443 "PUT /upload-target/20240401T194740.279.utd.77pt89gap4yi0dkmo29c9h8c9-k43o.6599377 HTTP/1.1" 201 None
+ 2024-04-01 19:47:41,739 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:47:41,787 - DEBUG - --[3] итерация
+ 2024-04-01 19:47:41,794 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:47:41,972 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:47:41,980 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:47:46,012 - DEBUG - --Фото 3 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:47:51,017 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:47:51,359 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:47:51,421 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:47:51,430 - DEBUG - --[4] итерация
+ 2024-04-01 19:47:51,437 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:47:51,645 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:47:51,653 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:47:55,678 - DEBUG - --Фото 4 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:48:00,683 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:48:01,274 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:48:01,287 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:48:01,294 - DEBUG - --[5] итерация
+ 2024-04-01 19:48:01,301 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:48:01,485 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:48:01,493 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:48:05,517 - DEBUG - --Фото 5 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:48:10,522 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:48:11,011 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 409 173
+ 2024-04-01 19:48:11,024 - DEBUG - --Ошибка Ya (нет ссылки)
+ 2024-04-01 19:48:11,026 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-01 19:48:11,026 - DEBUG - --Конец!
+ 2024-04-01 19:50:11,039 - DEBUG - --Начало программы
+ 2024-04-01 19:50:11,044 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:50:11,449 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:50:11,452 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:50:11,462 - DEBUG - --[1] итерация
+ 2024-04-01 19:50:11,466 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:50:11,669 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:50:11,674 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:50:15,674 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:50:15,680 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:50:16,535 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:50:16,545 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:50:16,650 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:50:16,797 - DEBUG - Starting new HTTPS connection (1): uploader52j.disk.yandex.net:443
+ 2024-04-01 19:50:17,841 - DEBUG - https://uploader52j.disk.yandex.net:443 "PUT /upload-target/20240401T195016.462.utd.141o641k4fkurdbsl2yvypvqb-k52j.6327056 HTTP/1.1" 201 None
+ 2024-04-01 19:50:17,845 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:50:17,884 - DEBUG - --[2] итерация
+ 2024-04-01 19:50:17,891 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:50:18,094 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:50:18,102 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:50:22,103 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:50:22,106 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:50:22,943 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:50:22,953 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:50:23,091 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:50:23,233 - DEBUG - Starting new HTTPS connection (1): uploader32o.disk.yandex.net:443
+ 2024-04-01 19:50:24,159 - DEBUG - https://uploader32o.disk.yandex.net:443 "PUT /upload-target/20240401T195022.878.utd.92hi14l34sfbex1r45gmzb5uo-k32o.6067576 HTTP/1.1" 201 None
+ 2024-04-01 19:50:24,164 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:50:24,202 - DEBUG - --[3] итерация
+ 2024-04-01 19:50:24,210 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:50:24,403 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:50:24,411 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:50:28,412 - DEBUG - --Фото 3 будет сохранено с именем: 1_2018-01-07.jpg
+ 2024-04-01 19:50:28,417 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:50:29,333 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:50:29,343 - DEBUG - Starting new HTTPS connection (1): sun1-21.userapi.com:443
+ 2024-04-01 19:50:29,454 - DEBUG - https://sun1-21.userapi.com:443 "GET /impf/c841034/v841034283/571c0/AaCXCvusD7Y.jpg?size=1280x960&quality=96&sign=0b03e9f3cfc3d828d98dc12c03560cab&c_uniq_tag=gRBQqT8qfxO2nMilzbqPPz_3CFzzHUPW9nU2cH0HJvw&type=album HTTP/1.1" 200 482071
+ 2024-04-01 19:50:29,599 - DEBUG - Starting new HTTPS connection (1): uploader23g.disk.yandex.net:443
+ 2024-04-01 19:50:30,348 - DEBUG - https://uploader23g.disk.yandex.net:443 "PUT /upload-target/20240401T195029.275.utd.33s0trobnwme3kzd10rx82hge-k23g.6179154 HTTP/1.1" 201 None
+ 2024-04-01 19:50:30,353 - DEBUG - --Фото 3 успешно сохранено!
+ 2024-04-01 19:50:30,419 - DEBUG - --[4] итерация
+ 2024-04-01 19:50:30,426 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:50:30,607 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:50:30,615 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:50:34,615 - DEBUG - --Фото 4 будет сохранено с именем: 1_2018-01-07_3.jpg
+ 2024-04-01 19:50:34,621 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:50:35,328 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07_3.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:50:35,338 - DEBUG - Starting new HTTPS connection (1): sun1-20.userapi.com:443
+ 2024-04-01 19:50:35,443 - DEBUG - https://sun1-20.userapi.com:443 "GET /impf/c841034/v841034283/571ca/ije90M3ebQ8.jpg?size=1280x960&quality=96&sign=cdd20f48db5cf7898aba255fdda62fba&c_uniq_tag=4LqgGdK45TciMmaE8utKfXj65KB9n-pbkbHEtU0ALX0&type=album HTTP/1.1" 200 233097
+ 2024-04-01 19:50:35,507 - DEBUG - Starting new HTTPS connection (1): uploader47j.disk.yandex.net:443
+ 2024-04-01 19:50:36,412 - DEBUG - https://uploader47j.disk.yandex.net:443 "PUT /upload-target/20240401T195035.275.utd.6uk8zshsezarxnp9spoufyc3o-k47j.6226948 HTTP/1.1" 201 None
+ 2024-04-01 19:50:36,416 - DEBUG - --Фото 4 успешно сохранено!
+ 2024-04-01 19:50:36,438 - DEBUG - --[5] итерация
+ 2024-04-01 19:50:36,445 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:50:36,648 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:50:36,657 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:50:40,658 - DEBUG - --Фото 5 будет сохранено с именем: 1_2018-01-07_4.jpg
+ 2024-04-01 19:50:40,663 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:50:41,216 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07_4.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:50:41,226 - DEBUG - Starting new HTTPS connection (1): sun1-27.userapi.com:443
+ 2024-04-01 19:50:41,333 - DEBUG - https://sun1-27.userapi.com:443 "GET /impf/c841034/v841034283/571d4/bbLiveTRCs4.jpg?size=1280x960&quality=96&sign=59a3cde1c6a4a294b0f67aa4ead8e17c&c_uniq_tag=mIaSNxOeTL3CJgpYnyGp7_WPj3-9C9e730Eaiv23A6k&type=album HTTP/1.1" 200 493783
+ 2024-04-01 19:50:41,465 - DEBUG - Starting new HTTPS connection (1): uploader9g.disk.yandex.net:443
+ 2024-04-01 19:50:43,259 - DEBUG - https://uploader9g.disk.yandex.net:443 "PUT /upload-target/20240401T195041.153.utd.67b77ioe1exc7p1xj5czekvu-k9g.6199978 HTTP/1.1" 201 None
+ 2024-04-01 19:50:43,263 - DEBUG - --Фото 5 успешно сохранено!
+ 2024-04-01 19:50:43,274 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-01 19:50:43,274 - DEBUG - --Конец!
+ 2024-04-01 19:55:40,433 - DEBUG - --Начало программы
+ 2024-04-01 19:55:40,438 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:55:41,271 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-01 19:55:41,276 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-01 19:55:41,283 - DEBUG - --[1] итерация
+ 2024-04-01 19:55:41,290 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:55:41,467 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:55:41,486 - DEBUG - --Получен url фото 1
+ 2024-04-01 19:55:41,487 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-01 19:55:41,492 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:55:42,231 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:55:42,240 - DEBUG - Starting new HTTPS connection (1): sun1-94.userapi.com:443
+ 2024-04-01 19:55:42,374 - DEBUG - https://sun1-94.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?size=1280x960&quality=96&sign=f2acd5fbd294f7fdb1d9b2d789549d0a&c_uniq_tag=LU-E8IhPquUrzAgVK3FUqadaI_Ce54-6YKIcKggTbUY&type=album HTTP/1.1" 200 543093
+ 2024-04-01 19:55:43,369 - DEBUG - Starting new HTTPS connection (1): uploader4v.disk.yandex.net:443
+ 2024-04-01 19:55:44,469 - DEBUG - https://uploader4v.disk.yandex.net:443 "PUT /upload-target/20240401T195542.163.utd.cziiryzhd0g8kp4puobvrodpp-k4v.6700798 HTTP/1.1" 201 None
+ 2024-04-01 19:55:44,473 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-01 19:55:44,493 - DEBUG - --[2] итерация
+ 2024-04-01 19:55:44,500 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:55:44,684 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:55:44,708 - DEBUG - --Получен url фото 2
+ 2024-04-01 19:55:44,709 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-01 19:55:44,714 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:55:45,660 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:55:45,671 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-01 19:55:45,842 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?size=810x1080&quality=96&sign=27fdb0335eecf1510b4249f24cd71bbd&c_uniq_tag=DECH-vDH9iH7X-QeEKnY6MREMFKxJreXlnRI-Vb-PXM&type=album HTTP/1.1" 200 337830
+ 2024-04-01 19:55:46,441 - DEBUG - Starting new HTTPS connection (1): uploader49o.disk.yandex.net:443
+ 2024-04-01 19:55:47,364 - DEBUG - https://uploader49o.disk.yandex.net:443 "PUT /upload-target/20240401T195545.604.utd.5v0qvk75jkjd907ht8conpfqc-k49o.6356101 HTTP/1.1" 201 None
+ 2024-04-01 19:55:47,368 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-01 19:55:47,405 - DEBUG - --[3] итерация
+ 2024-04-01 19:55:47,412 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:55:47,622 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9289
+ 2024-04-01 19:55:47,643 - DEBUG - --Получен url фото 3
+ 2024-04-01 19:55:47,643 - DEBUG - --Фото 3 будет сохранено с именем: 1_2018-01-07.jpg
+ 2024-04-01 19:55:47,649 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:55:48,245 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:55:48,255 - DEBUG - Starting new HTTPS connection (1): sun1-21.userapi.com:443
+ 2024-04-01 19:55:48,395 - DEBUG - https://sun1-21.userapi.com:443 "GET /impf/c841034/v841034283/571c0/AaCXCvusD7Y.jpg?size=1280x960&quality=96&sign=0b03e9f3cfc3d828d98dc12c03560cab&c_uniq_tag=gRBQqT8qfxO2nMilzbqPPz_3CFzzHUPW9nU2cH0HJvw&type=album HTTP/1.1" 200 482071
+ 2024-04-01 19:55:49,218 - DEBUG - Starting new HTTPS connection (1): uploader8v.disk.yandex.net:443
+ 2024-04-01 19:55:50,893 - DEBUG - https://uploader8v.disk.yandex.net:443 "PUT /upload-target/20240401T195548.183.utd.35buosky0nhn45g0lsqr0zbhb-k8v.7031674 HTTP/1.1" 201 None
+ 2024-04-01 19:55:50,897 - DEBUG - --Фото 3 успешно сохранено!
+ 2024-04-01 19:55:50,916 - DEBUG - --[4] итерация
+ 2024-04-01 19:55:50,923 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:55:51,107 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9281
+ 2024-04-01 19:55:51,127 - DEBUG - --Получен url фото 4
+ 2024-04-01 19:55:51,127 - DEBUG - --Фото 4 будет сохранено с именем: 1_2018-01-07_3.jpg
+ 2024-04-01 19:55:51,132 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:55:51,614 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07_3.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:55:51,624 - DEBUG - Starting new HTTPS connection (1): sun1-20.userapi.com:443
+ 2024-04-01 19:55:51,794 - DEBUG - https://sun1-20.userapi.com:443 "GET /impf/c841034/v841034283/571ca/ije90M3ebQ8.jpg?size=1280x960&quality=96&sign=cdd20f48db5cf7898aba255fdda62fba&c_uniq_tag=4LqgGdK45TciMmaE8utKfXj65KB9n-pbkbHEtU0ALX0&type=album HTTP/1.1" 200 233097
+ 2024-04-01 19:55:52,190 - DEBUG - Starting new HTTPS connection (1): uploader2g.disk.yandex.net:443
+ 2024-04-01 19:55:53,072 - DEBUG - https://uploader2g.disk.yandex.net:443 "PUT /upload-target/20240401T195551.573.utd.1re76de7khlb43vebu3shf11u-k2g.6188765 HTTP/1.1" 201 None
+ 2024-04-01 19:55:53,076 - DEBUG - --Фото 4 успешно сохранено!
+ 2024-04-01 19:55:53,127 - DEBUG - --[5] итерация
+ 2024-04-01 19:55:53,134 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-01 19:55:53,370 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 9281
+ 2024-04-01 19:55:53,395 - DEBUG - --Получен url фото 5
+ 2024-04-01 19:55:53,395 - DEBUG - --Фото 5 будет сохранено с именем: 1_2018-01-07_4.jpg
+ 2024-04-01 19:55:53,401 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-01 19:55:53,958 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07_4.jpg HTTP/1.1" 200 None
+ 2024-04-01 19:55:53,968 - DEBUG - Starting new HTTPS connection (1): sun1-27.userapi.com:443
+ 2024-04-01 19:55:54,108 - DEBUG - https://sun1-27.userapi.com:443 "GET /impf/c841034/v841034283/571d4/bbLiveTRCs4.jpg?size=1280x960&quality=96&sign=59a3cde1c6a4a294b0f67aa4ead8e17c&c_uniq_tag=mIaSNxOeTL3CJgpYnyGp7_WPj3-9C9e730Eaiv23A6k&type=album HTTP/1.1" 200 493783
+ 2024-04-01 19:55:54,960 - DEBUG - Starting new HTTPS connection (1): uploader4v.disk.yandex.net:443
+ 2024-04-01 19:55:56,455 - DEBUG - https://uploader4v.disk.yandex.net:443 "PUT /upload-target/20240401T195553.895.utd.7d8x0lzhmhrtj7mcoiplma0fk-k4v.6700907 HTTP/1.1" 201 None
+ 2024-04-01 19:55:56,460 - DEBUG - --Фото 5 успешно сохранено!
+ 2024-04-01 19:55:56,467 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-01 19:55:56,467 - DEBUG - --Конец!
+ 2024-04-02 23:01:06,607 - DEBUG - --Начало программы
+ 2024-04-02 23:01:06,611 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-02 23:01:07,064 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-02 23:01:07,066 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-02 23:01:07,067 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-02 23:01:07,067 - DEBUG - --Конец!
+ 2024-04-04 21:12:26,258 - DEBUG - --Начало программы
+ 2024-04-04 21:12:26,272 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-04 21:12:28,353 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-04 21:12:28,359 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-04 21:12:28,361 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-04 21:12:28,361 - DEBUG - --Конец!
+ 2024-04-04 21:15:09,161 - DEBUG - --Начало программы
+ 2024-04-04 21:15:09,170 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-04 21:15:11,691 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-04 21:15:11,698 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-04 21:15:11,699 - DEBUG - --[1] итерация
+ 2024-04-04 21:15:11,705 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-04 21:15:13,332 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-04 21:15:13,338 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-04 21:15:13,339 - DEBUG - --[2] итерация
+ 2024-04-04 21:15:13,343 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-04 21:15:14,641 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-04 21:15:14,655 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-04 21:15:14,656 - DEBUG - --[3] итерация
+ 2024-04-04 21:15:14,664 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-04 21:15:15,979 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-04 21:15:15,995 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-04 21:15:15,996 - DEBUG - --[4] итерация
+ 2024-04-04 21:15:16,008 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-04 21:15:17,236 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-04 21:15:17,242 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-04 21:15:17,242 - DEBUG - --[5] итерация
+ 2024-04-04 21:15:17,246 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-04 21:15:18,559 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-04 21:15:18,570 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-04 21:15:18,573 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-04 21:15:18,573 - DEBUG - --Конец!
