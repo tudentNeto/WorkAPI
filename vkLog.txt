@@ -828,3 +828,196 @@
  2024-04-04 21:15:18,570 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
  2024-04-04 21:15:18,573 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
  2024-04-04 21:15:18,573 - DEBUG - --Конец!
+ 2024-04-14 00:08:14,012 - DEBUG - --Начало программы
+ 2024-04-14 00:09:37,593 - DEBUG - --Начало программы
+ 2024-04-14 00:12:56,841 - DEBUG - --Начало программы
+ 2024-04-14 00:12:56,862 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-14 00:12:58,501 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 401 99
+ 2024-04-14 00:12:58,506 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-14 00:12:58,508 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-14 00:12:58,508 - DEBUG - --Конец!
+ 2024-04-14 00:46:02,643 - DEBUG - --Начало программы
+ 2024-04-14 00:46:02,657 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-14 00:46:05,469 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-14 00:46:05,491 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-14 00:46:05,497 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-14 00:46:05,498 - DEBUG - --Конец!
+ 2024-04-20 17:02:03,028 - DEBUG - --Начало программы
+ 2024-04-20 17:02:12,076 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:02:13,506 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Image HTTP/1.1" 200 None
+ 2024-04-20 17:02:55,101 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:02:56,462 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=+Immage HTTP/1.1" 404 None
+ 2024-04-20 17:02:56,495 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:02:58,337 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=+Immage HTTP/1.1" 201 113
+ 2024-04-20 17:02:58,342 - DEBUG - --Создана папка  Immage на Яндекс.Диск
+ 2024-04-20 17:02:58,343 - DEBUG - --[1] итерация
+ 2024-04-20 17:02:58,347 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:02:59,620 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:02:59,626 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:02:59,626 - DEBUG - --[2] итерация
+ 2024-04-20 17:02:59,630 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:03:00,785 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:03:00,813 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:03:00,814 - DEBUG - --[3] итерация
+ 2024-04-20 17:03:00,828 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:03:02,097 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:03:02,103 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:03:02,104 - DEBUG - --[4] итерация
+ 2024-04-20 17:03:02,109 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:03:03,290 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:03:03,304 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:03:03,305 - DEBUG - --[5] итерация
+ 2024-04-20 17:03:03,318 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:03:04,696 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:03:04,701 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:03:04,704 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-20 17:03:04,704 - DEBUG - --Конец!
+ 2024-04-20 17:04:48,098 - DEBUG - --Начало программы
+ 2024-04-20 17:04:57,287 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:04:58,698 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Image HTTP/1.1" 200 None
+ 2024-04-20 17:05:06,026 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:05:07,408 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Image HTTP/1.1" 200 None
+ 2024-04-20 17:08:00,831 - DEBUG - --Начало программы
+ 2024-04-20 17:08:06,206 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:08:07,941 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Image HTTP/1.1" 200 None
+ 2024-04-20 17:08:15,387 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:08:16,921 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=Image HTTP/1.1" 409 245
+ 2024-04-20 17:08:16,942 - DEBUG - --Ошибка Yandex! Папка Image не создана!
+ 2024-04-20 17:08:16,947 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-20 17:08:16,947 - DEBUG - --Конец!
+ 2024-04-20 17:22:12,302 - DEBUG - --Начало программы
+ 2024-04-20 17:22:17,331 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:22:18,731 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Immage HTTP/1.1" 404 None
+ 2024-04-20 17:22:18,764 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:22:21,604 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=Immage HTTP/1.1" 201 112
+ 2024-04-20 17:22:21,626 - DEBUG - --Создана папка Immage на Яндекс.Диск
+ 2024-04-20 17:22:21,626 - DEBUG - --[1] итерация
+ 2024-04-20 17:22:21,631 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:22:22,820 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:22:22,837 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:22:22,838 - DEBUG - --[2] итерация
+ 2024-04-20 17:22:22,850 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:22:23,983 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:22:24,010 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:22:24,011 - DEBUG - --[3] итерация
+ 2024-04-20 17:22:24,026 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:22:25,160 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:22:25,169 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:22:25,169 - DEBUG - --[4] итерация
+ 2024-04-20 17:22:25,176 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:22:26,460 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:22:26,466 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:22:26,467 - DEBUG - --[5] итерация
+ 2024-04-20 17:22:26,470 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:22:27,582 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:22:27,587 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:22:27,589 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-20 17:22:27,589 - DEBUG - --Конец!
+ 2024-04-20 17:22:46,678 - DEBUG - --Начало программы
+ 2024-04-20 17:22:52,785 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:22:54,166 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Immage HTTP/1.1" 200 None
+ 2024-04-20 17:23:06,163 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:23:07,512 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=KImage HTTP/1.1" 404 None
+ 2024-04-20 17:23:07,542 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:23:09,115 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=KImage HTTP/1.1" 201 112
+ 2024-04-20 17:23:09,134 - DEBUG - --Создана папка KImage на Яндекс.Диск
+ 2024-04-20 17:23:09,136 - DEBUG - --[1] итерация
+ 2024-04-20 17:23:09,151 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:23:10,507 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:23:10,512 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:23:10,512 - DEBUG - --[2] итерация
+ 2024-04-20 17:23:10,516 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:23:11,608 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:23:11,628 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:23:11,630 - DEBUG - --[3] итерация
+ 2024-04-20 17:23:11,639 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:23:12,775 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:23:12,792 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:23:12,794 - DEBUG - --[4] итерация
+ 2024-04-20 17:23:12,806 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:23:13,905 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:23:13,910 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:23:13,910 - DEBUG - --[5] итерация
+ 2024-04-20 17:23:13,914 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:23:15,048 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.28GGGDm3d2rOQoB_nSropd00gpXSjW6I5lSsUdP56ixYMFBlkz6PxfvErN-XfZVRkH5rjTjUgLWgQ4y5lHFcSdodGdVm8-ELC3flABBc2nIZPULOctjzx52bPWpZgYm5Ok-T_VGSUFpQBdAulhHIoBm4_2yaAUsr7vXV24R-7MJpFh4B1fJVK1HBOBzgEy23&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 197
+ 2024-04-20 17:23:15,053 - DEBUG - --Ошибка VK! Код:5 Сообщение: User authorization failed: access_token has expired.
+ 2024-04-20 17:23:15,055 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-20 17:23:15,055 - DEBUG - --Конец!
+ 2024-04-20 17:23:51,912 - DEBUG - --Начало программы
+ 2024-04-20 17:23:58,077 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:23:59,883 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=Image HTTP/1.1" 200 None
+ 2024-04-20 17:24:14,389 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:24:15,821 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=ImageVK HTTP/1.1" 200 None
+ 2024-04-20 17:24:22,213 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:24:23,672 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 409 249
+ 2024-04-20 17:24:23,694 - DEBUG - --Ошибка Yandex! Папка ImageVK не создана!
+ 2024-04-20 17:24:23,698 - DEBUG - --Информация о файлах ОТСУТСТВУЕТ!!!
+ 2024-04-20 17:24:23,699 - DEBUG - --Конец!
+ 2024-04-20 17:49:05,455 - DEBUG - --Начало программы
+ 2024-04-20 17:49:15,145 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:16,607 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources?path=ImageVK HTTP/1.1" 404 None
+ 2024-04-20 17:49:16,644 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:18,105 - DEBUG - https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=ImageVK HTTP/1.1" 201 113
+ 2024-04-20 17:49:18,125 - DEBUG - --Создана папка ImageVK на Яндекс.Диск
+ 2024-04-20 17:49:18,127 - DEBUG - --[1] итерация
+ 2024-04-20 17:49:18,143 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:49:19,435 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.ZWIexOYgb81ejjJjRRkEs4IU5ThrUM7DxBYsyyMMQidiguzPhczQ1WlmdZVLD5j0gTkC6ci_3PrrnLyOcxPik1_VmYnyxa3Ru4BzYbhqPtq2-9qwva_80AMoBN8RSbSUUdvrp5PWVoNW4Vz0etyx-tlMyMVGknJ6wPx8WwLVHIi7-6zSntY4wjmiinzhFjqf&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 2221
+ 2024-04-20 17:49:19,468 - DEBUG - --Получен url фото 1
+ 2024-04-20 17:49:19,470 - DEBUG - --Фото 1 будет сохранено с именем: 2.jpg
+ 2024-04-20 17:49:19,485 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:21,013 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F2.jpg HTTP/1.1" 200 None
+ 2024-04-20 17:49:21,051 - DEBUG - Starting new HTTPS connection (1): sun9-29.userapi.com:443
+ 2024-04-20 17:49:22,266 - DEBUG - https://sun9-29.userapi.com:443 "GET /impf/c841034/v841034283/571ac/Aw5rhOotFUA.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&sign=7d97bb22bd9ec76f640a3580403ecd58&from=bu&cs=1280x960 HTTP/1.1" 200 543093
+ 2024-04-20 17:49:22,445 - DEBUG - Starting new HTTPS connection (1): uploader18j.disk.yandex.net:443
+ 2024-04-20 17:49:24,205 - DEBUG - https://uploader18j.disk.yandex.net:443 "PUT /upload-target/20240420T174921.554.utd.568yi3p3amvjdvvh02vvs6nyz-k18j.7277151 HTTP/1.1" 201 None
+ 2024-04-20 17:49:24,228 - DEBUG - --Фото 1 успешно сохранено!
+ 2024-04-20 17:49:24,230 - DEBUG - --[2] итерация
+ 2024-04-20 17:49:24,243 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:49:25,482 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.ZWIexOYgb81ejjJjRRkEs4IU5ThrUM7DxBYsyyMMQidiguzPhczQ1WlmdZVLD5j0gTkC6ci_3PrrnLyOcxPik1_VmYnyxa3Ru4BzYbhqPtq2-9qwva_80AMoBN8RSbSUUdvrp5PWVoNW4Vz0etyx-tlMyMVGknJ6wPx8WwLVHIi7-6zSntY4wjmiinzhFjqf&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 2221
+ 2024-04-20 17:49:25,498 - DEBUG - --Получен url фото 2
+ 2024-04-20 17:49:25,498 - DEBUG - --Фото 2 будет сохранено с именем: 1.jpg
+ 2024-04-20 17:49:25,502 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:27,115 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1.jpg HTTP/1.1" 200 None
+ 2024-04-20 17:49:27,149 - DEBUG - Starting new HTTPS connection (1): sun9-6.userapi.com:443
+ 2024-04-20 17:49:28,341 - DEBUG - https://sun9-6.userapi.com:443 "GET /impf/c841034/v841034283/571b6/d3MaNfVIcKM.jpg?quality=96&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1620x2160&sign=374c6c9f9779a09a919d65482c11f815&from=bu&cs=810x1080 HTTP/1.1" 200 505750
+ 2024-04-20 17:49:28,501 - DEBUG - Starting new HTTPS connection (1): uploader15g.disk.yandex.net:443
+ 2024-04-20 17:49:30,930 - DEBUG - https://uploader15g.disk.yandex.net:443 "PUT /upload-target/20240420T174927.647.utd.325ajsv84k2a11j3q60kw0z3b-k15g.22727965 HTTP/1.1" 201 None
+ 2024-04-20 17:49:30,951 - DEBUG - --Фото 2 успешно сохранено!
+ 2024-04-20 17:49:30,952 - DEBUG - --[3] итерация
+ 2024-04-20 17:49:30,960 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:49:32,146 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.ZWIexOYgb81ejjJjRRkEs4IU5ThrUM7DxBYsyyMMQidiguzPhczQ1WlmdZVLD5j0gTkC6ci_3PrrnLyOcxPik1_VmYnyxa3Ru4BzYbhqPtq2-9qwva_80AMoBN8RSbSUUdvrp5PWVoNW4Vz0etyx-tlMyMVGknJ6wPx8WwLVHIi7-6zSntY4wjmiinzhFjqf&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 2221
+ 2024-04-20 17:49:32,153 - DEBUG - --Получен url фото 3
+ 2024-04-20 17:49:32,153 - DEBUG - --Фото 3 будет сохранено с именем: 1_2018-01-07.jpg
+ 2024-04-20 17:49:32,156 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:33,600 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07.jpg HTTP/1.1" 200 None
+ 2024-04-20 17:49:33,632 - DEBUG - Starting new HTTPS connection (1): sun9-32.userapi.com:443
+ 2024-04-20 17:49:34,898 - DEBUG - https://sun9-32.userapi.com:443 "GET /impf/c841034/v841034283/571c0/AaCXCvusD7Y.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&sign=db7d33b1374f8243635047e3ffaf21f8&from=bu&cs=1280x960 HTTP/1.1" 200 482071
+ 2024-04-20 17:49:35,063 - DEBUG - Starting new HTTPS connection (1): uploader4j.disk.yandex.net:443
+ 2024-04-20 17:49:37,035 - DEBUG - https://uploader4j.disk.yandex.net:443 "PUT /upload-target/20240420T174934.104.utd.69aq9wu93f9171c5y087xqt1d-k4j.7380119 HTTP/1.1" 201 None
+ 2024-04-20 17:49:37,056 - DEBUG - --Фото 3 успешно сохранено!
+ 2024-04-20 17:49:37,057 - DEBUG - --[4] итерация
+ 2024-04-20 17:49:37,073 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:49:38,300 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.ZWIexOYgb81ejjJjRRkEs4IU5ThrUM7DxBYsyyMMQidiguzPhczQ1WlmdZVLD5j0gTkC6ci_3PrrnLyOcxPik1_VmYnyxa3Ru4BzYbhqPtq2-9qwva_80AMoBN8RSbSUUdvrp5PWVoNW4Vz0etyx-tlMyMVGknJ6wPx8WwLVHIi7-6zSntY4wjmiinzhFjqf&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 2221
+ 2024-04-20 17:49:38,330 - DEBUG - --Получен url фото 4
+ 2024-04-20 17:49:38,331 - DEBUG - --Фото 4 будет сохранено с именем: 1_2018-01-07_3.jpg
+ 2024-04-20 17:49:38,345 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:40,505 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07_3.jpg HTTP/1.1" 200 None
+ 2024-04-20 17:49:40,535 - DEBUG - Starting new HTTPS connection (1): sun9-44.userapi.com:443
+ 2024-04-20 17:49:41,796 - DEBUG - https://sun9-44.userapi.com:443 "GET /impf/c841034/v841034283/571ca/ije90M3ebQ8.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&sign=8f3fc2e672e6886714bc139498c9f5ce&from=bu&cs=1280x960 HTTP/1.1" 200 233097
+ 2024-04-20 17:49:41,886 - DEBUG - Starting new HTTPS connection (1): uploader45j.disk.yandex.net:443
+ 2024-04-20 17:49:43,460 - DEBUG - https://uploader45j.disk.yandex.net:443 "PUT /upload-target/20240420T174940.439.utd.73k736y0x6qjba7gl9lk5cvmw-k45j.15144854 HTTP/1.1" 201 None
+ 2024-04-20 17:49:43,481 - DEBUG - --Фото 4 успешно сохранено!
+ 2024-04-20 17:49:43,482 - DEBUG - --[5] итерация
+ 2024-04-20 17:49:43,498 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+ 2024-04-20 17:49:44,749 - DEBUG - https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.ZWIexOYgb81ejjJjRRkEs4IU5ThrUM7DxBYsyyMMQidiguzPhczQ1WlmdZVLD5j0gTkC6ci_3PrrnLyOcxPik1_VmYnyxa3Ru4BzYbhqPtq2-9qwva_80AMoBN8RSbSUUdvrp5PWVoNW4Vz0etyx-tlMyMVGknJ6wPx8WwLVHIi7-6zSntY4wjmiinzhFjqf&owner_id=257060073&v=5.131&album_id=wall&extended=1 HTTP/1.1" 200 2218
+ 2024-04-20 17:49:44,780 - DEBUG - --Получен url фото 5
+ 2024-04-20 17:49:44,782 - DEBUG - --Фото 5 будет сохранено с именем: 1_2018-01-07_4.jpg
+ 2024-04-20 17:49:44,797 - DEBUG - Starting new HTTPS connection (1): cloud-api.yandex.net:443
+ 2024-04-20 17:49:46,181 - DEBUG - https://cloud-api.yandex.net:443 "GET /v1/disk/resources/upload?path=ImageVK%2F1_2018-01-07_4.jpg HTTP/1.1" 200 None
+ 2024-04-20 17:49:46,208 - DEBUG - Starting new HTTPS connection (1): sun9-36.userapi.com:443
+ 2024-04-20 17:49:47,429 - DEBUG - https://sun9-36.userapi.com:443 "GET /impf/c841034/v841034283/571d4/bbLiveTRCs4.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&sign=b6e8ac7a141e0a61b770b161f8020a95&from=bu&cs=1280x960 HTTP/1.1" 200 493783
+ 2024-04-20 17:49:47,611 - DEBUG - Starting new HTTPS connection (1): uploader16g.disk.yandex.net:443
+ 2024-04-20 17:49:49,654 - DEBUG - https://uploader16g.disk.yandex.net:443 "PUT /upload-target/20240420T174946.735.utd.cnbigr4zanseesbwfy51y2518-k16g.14690030 HTTP/1.1" 201 None
+ 2024-04-20 17:49:49,676 - DEBUG - --Фото 5 успешно сохранено!
+ 2024-04-20 17:49:49,682 - DEBUG - --Информация о файлах сохранена (см. файл vkJson)
+ 2024-04-20 17:49:49,683 - DEBUG - --Конец!
